@@ -12,7 +12,7 @@ Tools we are using here include BigQuery and Tableau.  Search Console does not h
 
 ### 2. The impact of pop-up ad on SEO
 
-<img src="images/seo_rank_difference?raw=true"/>
+<img src="images/seo_rank_difference.png?raw=true"/>
 
 The evaluation here is to look at how pop-up ad have impacted on the SEO performance.  Position here uses Search Console default explanation therefore a rises in position is a decreases in rank in SERP.  The use of differences in positions compare to previous week here illustrate the impact on changes better but it also hinders the ability to show trends.  
 The implementation of the pop-up ad is at around late W36 and the removal in late W38.  There are certainly some other factors affecting the SERP position including natural rises and drops depends on how competitors perform.  Fluctuations immediately between weeks however should normally be small, so we'd expect the majority hugging around the 0.  
