@@ -1,4 +1,4 @@
-## SERP and Landing Page Conversion Rate
+## SERP and SEO
 
 **Description:** This illustration examines the organic search performances across landing pages.  By combining SERP data on Search Console and data from Google Analytics and using landing page as the joining key, we can evaluate the performance of different aspects in SEO and their corresponding product-side performances.  The following examples illustrates some of the practical uses of the data including:
 Evaluate how certain features may impact on SEO performance
