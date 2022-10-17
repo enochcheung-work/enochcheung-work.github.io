@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Project 1 Title](/serp_landing.md)
+[Project 1 Title](/serp_landing)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
