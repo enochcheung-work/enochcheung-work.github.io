@@ -18,9 +18,9 @@ Tools we are using here include BigQuery and Tableau.  Search Console does not h
 
 The chart we use here is a **scatter plot with date on the x-axis.**  Position here uses Search Console default explanation therefore a rises in position is a decreases in rank in SERP.  The use of differences in positions compared to previous week here illustrates the impact of changes better but it also hinders the ability to show trends.  
 
-The implementation of Feature A (a pop-up ad) is at around late W36 and the removal in late W38.  There are certainly some other factors affecting the SERP position including natural rises and drops depends on how competitors perform.  Fluctuations immediately between weeks however should normally be small, so we'd expect the majority hugging around the 0.  
+The implementation of Feature A (a pop-up ad) is at around late W35 and the removal in late W37.  There are certainly some other factors affecting the SERP position including natural rises and drops depends on how competitors perform.  Fluctuations immediately between weeks however should normally be small, so we'd expect the majority hugging around the 0.  
 
-Here we observe rises of SERP positions in nearly all of the page categories in W37, especially the big movers, and the subsequent slight improvement when the ad withdrew.  
+Here we observe rises of SERP positions in nearly all of the page categories in W36, especially the big movers, and the subsequent slight improvement when the ad withdrew.
 
 <img src="images/rank_difference_table_blur.png?raw=true"/>
 Breaking down in numbers, we see 8 page categories that have more than 1 increase in rank in W36 with an average of 1.81.  Most categories have yet to recover from the shock within the observation period.
