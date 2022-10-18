@@ -2,10 +2,10 @@
 
 ---
 
-### Category Name 1 
+### SERP and SEO
 
-[Project 1 Title](/serp_landing)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Project 1 Title](/serp_seo)
+<img src="images/serp_seo.png?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
