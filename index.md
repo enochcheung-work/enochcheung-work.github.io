@@ -2,9 +2,9 @@
 
 ---
 
-### SERP and SEO
+### Projects
 
-[Project 1 Title](/serp_seo)
+[SERP and SEO](/serp_seo)
 <img src="images/serp_seo.png?raw=true"/>
 
 ---
