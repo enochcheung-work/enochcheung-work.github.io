@@ -1,9 +1,12 @@
 ## SERP and SEO
 
 **Description:** This illustration examines the organic search performances across landing pages.  By combining SERP data on Search Console and data from Google Analytics and using landing page as the joining key, we can evaluate the performance of different aspects in SEO and their corresponding product-side performances.  The following examples illustrates some of the practical uses of the data including:
+
+```
 Evaluate how certain features may impact on SEO performance
 Map out movement of Search Rank between dates
 Locate high conversion potentials landing pages
+```
 
 ### 1. Basic ETL
 
@@ -15,7 +18,9 @@ Tools we are using here include BigQuery and Tableau.  Search Console does not h
 <img src="images/seo_rank_difference.png?raw=true"/>
 
 The evaluation here is to look at how pop-up ad have impacted on the SEO performance.  Position here uses Search Console default explanation therefore a rises in position is a decreases in rank in SERP.  The use of differences in positions compare to previous week here illustrate the impact on changes better but it also hinders the ability to show trends.  
+
 The implementation of the pop-up ad is at around late W36 and the removal in late W38.  There are certainly some other factors affecting the SERP position including natural rises and drops depends on how competitors perform.  Fluctuations immediately between weeks however should normally be small, so we'd expect the majority hugging around the 0.  
+
 Here we observe rises of SERP positions in nearly all of the page cateogries in W37, espcially the big movers, and the subsequent slight imporvement when the ad withdrew.  
 
 <img src="images/rank_difference_table_blur.png?raw=true"/>
