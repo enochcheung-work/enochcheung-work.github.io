@@ -16,7 +16,7 @@ Two major components in this chart is search impression and conversion rate.  Id
 
 
 
-<!-- This content will not appear in the rendered Markdown -->
+<!--
 
 
 
@@ -38,4 +38,4 @@ Although not entirely significant, preliminarily we see that during W36 and W37,
 
 Wrapping up, from the above illustrations, we can conclude that the introduction of pop-up ad did have an impact on SEO.  Still, we need further observation on whether the SERP position will restore.  Charts are quite versatile in working on other areas such as queries instead of landing pages or a longer term SEO monitoring instead of individual events. 
 
-<!-- This content will not appear in the rendered Markdown -->
+ This content will not appear in the rendered Markdown -->
