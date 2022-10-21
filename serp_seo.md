@@ -1,6 +1,6 @@
 ## SERP and SEO
 
-**Description:** This illustration shows what charts can be used to examine the organic search performances across landing pages.  By combining SERP data on Search Console and data from Google Analytics and using landing page as the joining key, we can evaluate the performance of different aspects in SEO and their corresponding product-side performances.  The following examples illustrate some of the practical uses of the data including:
+**Description:** This illustration shows some of the examples I used to evaluate SEO impact on impletmenting pop-up ad.  All data is from Search Console only but BigQuery is also being used here.  The following examples illustrate some of the practical uses of the data including:
 
 - Evaluate how certain features may impact SEO performance
 - Map out movement of Search Rank between dates
@@ -42,4 +42,4 @@ Although not entirely significant, preliminarily we see that during W36 and W37,
 <img src="images/weight_and_resistance.png?raw=true"/> <img src="images/weight_and_resistance_trend.png?raw=true"/>
 
 
-Wrapping up, from the above illustrations, we can conclude that the introduction of pop-up ad did have an impact on SEO.  Still, we need further observation on whether the SERP position will restore.  Charts are quite versatile in working on other areas such as queries instead of landing pages or a longer term SEO monitoring instead of individual events.  
+Wrapping up, from the above illustrations, we can conclude that the introduction of pop-up ad did have an impact on SEO.  Still, we need further observations on area such as whether the SERP position will restore or whether the conversion rate were affected as well.  Charts are quite versatile in working on other areas such as queries instead of landing pages or a longer term SEO monitoring instead of individual events.  
