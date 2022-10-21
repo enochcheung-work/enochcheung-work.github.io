@@ -8,7 +8,7 @@
 <img src="images/serp_seo.png?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Organic Traffic and Conversion Rate](/organic_conversion_optimisation)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
