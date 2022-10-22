@@ -8,8 +8,9 @@
 
 Here we try to pick out best performing landing page with the highest conversion rate and total conversions for organic traffic. The conversion rate we are using here is `conversions/sessions`. We see organically Dimension B in pink and brown dominates the better blocks of outcome.
 
-Now let's focus on the brown inverted triangle on the top-right. Say for the next step we want to pick out landing/products with the highest potential for SEM, the inverted triangle would logically be one of our top choices. However if we add SERP data,
+Now let's focus on the brown inverted triangle on the top-right. Say for the next step we want to pick out landing/products with the highest potential for SEM, the inverted triangle would logically be one of our top choices. 
 
+However if we add SERP data,
 <img src="images/conversion_rate_impression.png?raw=true"/>
 the inverted triangle is a lot less sexy with its low search volumes and (ironically) better SEO with 38% of the maximum traffic we've already taken.
 
