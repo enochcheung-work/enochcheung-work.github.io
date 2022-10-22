@@ -10,9 +10,9 @@ Here we try to pick out best performing landing page with the highest conversion
 
 Now let's focus on the brown inverted triangle on the top-right. Say for the next step we want to pick out landing/products with the highest potential for SEM, the inverted triangle would logically be one of our top choices. 
 
-However if we add SERP data,
+
 <img src="images/conversion_rate_impression.png?raw=true"/>
-the inverted triangle is a lot less sexy with its low search volumes and (ironically) better SEO with 38% of the maximum traffic we've already taken.
+However if we add SERP data, the inverted triangle is a lot less sexy with its low search volumes and (ironically) better SEO with 38% of the maximum traffic we've already taken.
 
 <img src="images/conversion_rate_impression_2.png?raw=true"/>
 This would lead us to simply focus on impressions and conversion rate since it potentially gives a greater amount of leads. Here we see many of the landing pages in the best block (top-right) is having a low sessions-organic ratio, which is great for SEM since we want to hijack the rank in SERP.
