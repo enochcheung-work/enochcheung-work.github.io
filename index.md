@@ -9,7 +9,7 @@
 
 ---
 [Organic Traffic and Conversion Rate](/organic_conversion_optimisation)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/organic_conversion_optimisation.png?raw=true"/>
 
 ---
 [Project 3 Title](http://example.com/)
