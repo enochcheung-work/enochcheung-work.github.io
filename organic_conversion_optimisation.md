@@ -1,41 +1,24 @@
 ## Organic Traffic and Conversion Rate
 
-**Description:** This illustration shows what examples used to examine the organic search performances across landing pages.  By combining SERP data on Search Console and data from Google Analytics and using landing page as the joining key, we can evaluate the performance of different aspects in SEO, their corresponding product-side performances and identify potentials.
+**Description:** This illustration shows ways to pick out best performers in different scenarios and would result in different priorities.  One way to perceive conversion funnel optimisation is to pick the most effiecient step at each steps to maxmise the outcome, for example, simple as allocating marketing budget based on conversion rate in leads would have a better multiplying effect.  Extend the concept to the whole funnel such as prioritising product optimisation for highest revenue product or picking out higher potentials for SEM based on both conersion rate AND search impressions gives better total leverages.
 
 
-### 1. Data Source
+### 1. Leads and Conversion Rate
+<img src="images/conversion_rate_session.png?raw=true"/>
 
-Here we use only Google Analytics and some Search Console Data.  Since the example here is web-based, much of the work can be done on Data Studio with its built-in GA integration.  Certain custom dimensions are used for GA and Session ID for the GA without 360.
+Here we try to pick out best performing landing page with highest conversion rate and total conversions for organic traffic.  Conversion rate we are using here is `conversions/sessions`.  We see ogranically Dimension B in pink and brown dominates the better blocks of outcome.
 
+Now let's focus in the brown intverted triangle on the top-right.  Say for next step we want to pick out landing/products with highest potential for SEM, the inverted triangle would logically be one of our top choices.  However if we add in SERP data, 
 
-### 2. Identify high potential products with SERP and GA data
+<img src="images/conversion_rate_impression.png?raw=true"/>
+the inverted triangle is a lot less sexier with its low search volumes and (ironically) better SEO with 38% of the maximum traffic we've already taken.
 
-<img src="images/landing_conversion_rate.png?raw=true"/>
-
-Two major components in this chart is search impression and conversion rate.  Ideally we are looking for high organic search impressions, which signals a moderately good perfoming search rank and total search volume, and landing pages with high conversion rate.  
-
-
-
-<!--
+<img src="images/conversion_rate_impression_2.png?raw=true"/>
+This would lead us to simply focus on impressions and conversion rate, since it potentially gives the  greater amount of leads.  Here we see many of the landing pages in the best block (top-right) is having a low sessions-organic ratio, which is great for SEM since we want to hijack the rank in SERP.
 
 
-
-### 3. Illustrate how SERP positions change over time for a given dimension
-
-<img src="images/serp_movement.png?raw=true"/>
-
-This **scatter Plot with movement arrows** best illustrates the changes in performance metrics for a given dimension within two static start-end dates.  Further examining the pop-up impact, we compare the change of average position and SERP Click-Through Rate between pre-launch and before withdrawal.  Choice of CTR neutralises the weight of landing pages and allows us to focus on individual changes.  The chart further supports the assumption that pop-up ad hinders SEO performance with the majority resulting a decrease in CTR and rank.
+### 2. Revenue Scenario
+<img src="images/revenue_scenario.png?raw=true"/>
+Data we uses here are on leads only, but we can mimic a scenario includes the price of product by assigning a random value to each data point.  With price, we can generate a metric as maximum expected revenue with `price * Impressions * conversion rate`.  This figure for sure will never be achieved as we need to work on the CTR on SERP with SEM but it should be enough at this stage.  
 
 
-### 4. Does a higher rank in SERP means higher resistance in shock?
-
-From the above observation we see some of our best performance landing pages held nicer than the others during the shock.  We want to see if there is a positive relationship between rank and resistance in major events.
-
-Although not entirely significant, preliminarily we see that during W36 and W37, the weaker landing pages is more prone to decrease in rank.
-
-<img src="images/weight_and_resistance.png?raw=true"/> <img src="images/weight_and_resistance_trend.png?raw=true"/>
-
-
-Wrapping up, from the above illustrations, we can conclude that the introduction of pop-up ad did have an impact on SEO.  Still, we need further observation on whether the SERP position will restore.  Charts are quite versatile in working on other areas such as queries instead of landing pages or a longer term SEO monitoring instead of individual events. 
-
- This content will not appear in the rendered Markdown -->
