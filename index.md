@@ -13,7 +13,7 @@
 
 ---
 [Data Visualisation with Tableau and Canva](/visualisation_tableau_canva)
-<img src="images/organic_conversion_optimisation.png?raw=true"/>
+<img src="images/visualisation_tableau_canva.png?raw=true"/>
 
 <!-- 
 ---
