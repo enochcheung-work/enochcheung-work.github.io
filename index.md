@@ -11,6 +11,10 @@
 [Organic Traffic and Conversion Rate](/organic_conversion_optimisation)
 <img src="images/organic_conversion_optimisation.png?raw=true"/>
 
+---
+[Data Visualisation with Tableau and Canva](/visualisation_tableau_canva)
+<img src="images/organic_conversion_optimisation.png?raw=true"/>
+
 <!-- 
 ---
 [Project 3 Title](http://example.com/)
