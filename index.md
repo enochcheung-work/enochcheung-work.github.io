@@ -16,7 +16,7 @@
 <img src="images/visualisation_tableau_canva.png?raw=true"/>
 
 ---
-[Data Studio Dashboard - Product/Marketing Performance](/data-studio-dashboard_product)
+[Data Studio Dashboard - Product/Marketing Performance](/data-studio-dashboard)
 <img src="images/data_studio_dashboard.png?raw=true"/>
 
 
