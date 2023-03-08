@@ -15,6 +15,11 @@
 [Data Visualisation with Tableau and Canva](/visualisation_tableau_canva)
 <img src="images/visualisation_tableau_canva.png?raw=true"/>
 
+---
+[Data Studio Dashboard - Product/Marketing Performance](/data-studio-dashboard_product)
+<img src="images/data_studio_dashboard.png?raw=true"/>
+
+
 <!-- 
 ---
 [Project 3 Title](http://example.com/)
