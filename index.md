@@ -13,7 +13,7 @@
 
 ---
 [Data Studio - SEM Keyword Monitoring](/sem_keyword)
-<img src="images/sem_keyword.png?raw=true"/>
+<img src="images/sem_keyword_thumbnail.png?raw=true"/>
 
 ---
 [Organic Traffic and Conversion Rate](/organic_conversion_optimisation)
