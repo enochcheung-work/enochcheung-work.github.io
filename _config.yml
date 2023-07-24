@@ -1,12 +1,15 @@
 title: Enoch Cheung # your name (or website title) here
 #logo: "/images/dp2022.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  <sup> 
-  Data-centric digital marketing generalist.  Experienced in web and app product analytics, data visualisation, conversion rate optimisation, SEO, SEM, marketing analytics.
+  <sup>
+  <b>Profile</b><br>
+  Data-centric digital marketing generalist.<br>
+  Experienced in web and app product analytics, data visualisation, conversion rate optimisation, SEO, SEM, marketing analytics.
   <br><br>
-  Domain: Digital Healthcare
+  <b>Domain</b><br>
+  Digital Healthcare
   <br><br>
-  <b>Technical Skills</b>
+  <b>Technical Skills</b><br>
   GA, SEO, SEM, GTM, Search Console<br>
   Looker Studio, Tableau<br>
   GCP - Fuction | Scheduler | BigQuery<br>
