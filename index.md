@@ -12,16 +12,16 @@
 <img src="images/visualisation_tableau_canva.png?raw=true"/>
 
 ---
-[Data Studio - SEM Keyword Monitoring](/sem_keyword)
-<img src="images/sem_keyword_thumbnail.png?raw=true"/>
-
----
 [Organic Traffic and Conversion Rate](/organic_conversion_optimisation)
 <img src="images/organic_conversion_optimisation.png?raw=true"/>
 
 ---
 [SEO Analytics](/serp_seo)
 <img src="images/serp_seo.png?raw=true"/>
+
+---
+[Data Studio - SEM Keyword Monitoring](/sem_keyword)
+<img src="images/sem_keyword_thumbnail.png?raw=true"/>
 
 
 <!-- 
