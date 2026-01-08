@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MSc in Business Administration – Health
+title: From Health Economics and Business Administration to Digital Health Platform Strategy
 permalink: /msc-health/
 ---
 
@@ -31,6 +31,13 @@ permalink: /msc-health/
   margin: 16px 0 22px;
 }
 
+  .grid h3 {
+  margin: 1.4rem 0 0.6rem;
+  font-size: 1rem;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
 .card {
   border: 1px solid rgba(0,0,0,0.15);
   border-radius: 12px;
@@ -57,9 +64,16 @@ permalink: /msc-health/
 </style>
 
 <div class="page-hero">
-  <h1>MSc in Business Administration – Health</h1>
-  <div class="meta">
-    <strong>University of Groningen, Netherlands</strong> · GPA: 8.1 / 10 · Distinction
+<h1>Applying Health Economics to Digital Health Platform Analysis</h1>
+
+<div class="meta">
+  MSc Business Administration – Health · University of Groningen · GPA 8.1 / 10 (Distinction)
+</div>
+
+<p>
+This programme strengthened my ability to apply health economics, systems thinking, and research methods to digital health platform analysis, supporting prioritisation, adoption strategy, and evidence-informed business decisions.
+</p>
+
   </div>
 
   <p>
@@ -77,8 +91,23 @@ permalink: /msc-health/
 
 <div class="grid">
 
+<h3 id="role-fit">Role focus</h3>
   <div class="card">
-    <h2>What the programme trained me to do</h2>
+    <h2>How this supports my target role</h2>
+    <p>
+      Target: business and strategic research analysis roles in digital health platforms.
+    </p>
+    <ul>
+      <li>Decision support through structured comparison and prioritisation</li>
+      <li>Understanding platform incentives, adoption dynamics, and constraints</li>
+      <li>Combining evidence synthesis with KPI and performance metrics</li>
+      <li>Transition from execution-focused analytics to upstream strategy and research</li>
+    </ul>
+  </div>
+  
+<h3 id="decision-capability">Decision and strategy capability</h3>
+  <div class="card">
+    <h2> Decision capabilities developed through health economics training </h2>
     <p>
       Translate health domain knowledge into decision support across strategy, operations, and evaluation.
     </p>
@@ -103,6 +132,7 @@ permalink: /msc-health/
     </ul>
   </div>
 
+<h3 id="analytics">Analytical and modelling foundations</h3>
   <div class="card">
     <h2>Health economics and evaluation</h2>
     <p>
@@ -114,6 +144,7 @@ permalink: /msc-health/
     </ul>
   </div>
 
+<h3 id="systems">Health system and execution context</h3>
   <div class="card">
     <h2>Health systems, policy, and society</h2>
     <p>
@@ -147,6 +178,7 @@ permalink: /msc-health/
     </ul>
   </div>
 
+<h3 id="research">Evidence synthesis and research capability</h3>
   <div class="card">
     <h2>Research methods and evidence synthesis</h2>
     <p>
@@ -174,7 +206,7 @@ permalink: /msc-health/
   </div>
 
   <div class="card">
-    <h2>Master’s thesis (research capability preview)</h2>
+    <h2>Master’s thesis (Evidence synthesis for platform decision-making) </h2>
     <p>
       <strong>Digital and social determinants of health in e-health implementation</strong><br/>
       PRISMA-guided systematic review examining how social and digital factors shape digital health inequities in rural LMICs.
@@ -187,17 +219,5 @@ permalink: /msc-health/
     <p><a href="/thesis/">View thesis summary and methods →</a></p>
   </div>
 
-  <div class="card">
-    <h2>How this supports my target role</h2>
-    <p>
-      Target: business and strategic research analysis roles in digital health platforms.
-    </p>
-    <ul>
-      <li>Decision support through structured comparison and prioritisation</li>
-      <li>Understanding platform incentives, adoption dynamics, and constraints</li>
-      <li>Combining evidence synthesis with KPI and performance metrics</li>
-      <li>Transition from execution-focused analytics to upstream strategy and research</li>
-    </ul>
-  </div>
 
 </div>
