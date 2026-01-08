@@ -3,34 +3,71 @@
 
 @import "jekyll-theme-minimal";
 
-/* 1) Make overall layout wider so the sidebar has room */
+/* Ensure widths behave predictably */
+* { box-sizing: border-box; }
+
+/* --- Layout fix: replace float-based theme layout with flexbox --- */
 .wrapper {
-  max-width: 1100px; /* default is narrower; increase to reduce wrapping */
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 36px;                 /* spacing between sidebar and main content */
+  align-items: flex-start;
 }
 
-/* 2) Widen sidebar (header) and rebalance main content (section) */
-header {
-  width: 360px;  /* default ~270px */
+/* Remove float behaviour from the theme */
+.wrapper > header,
+.wrapper > section,
+.wrapper > footer {
+  float: none !important;
 }
 
-section {
-  width: 700px;  /* default ~500px */
+/* Sidebar */
+.wrapper > header {
+  width: 320px;              /* adjust as needed */
+  flex: 0 0 320px;
 }
 
-/* 3) Improve sidebar readability and prevent cramped wrapping */
-header p {
-  font-size: 0.98rem;   /* slightly smaller for denser content */
-  line-height: 1.35;
-  margin-bottom: 0.5rem;
+/* Main content */
+.wrapper > section {
+  flex: 1 1 auto;            /* takes remaining space */
+  min-width: 0;              /* prevents overflow issues in flex layouts */
 }
 
-/* 4) Headings +1 size step (your earlier request) */
+/* Footer should sit below both columns (not inside the flex row) */
+.wrapper > footer {
+  flex-basis: 100%;
+  width: 100%;
+}
+
+/* --- Typography tweaks --- */
+
+/* Your +1 heading size request */
 h1 { font-size: 2.2rem; }
 h2 { font-size: 1.6rem; }
 h3 { font-size: 1.25rem; }
 
-/* 5) Mobile: keep things responsive */
+/* Sidebar font too large → reduce and tighten line height */
+.wrapper > header p {
+  font-size: 0.90rem;        /* smaller than before */
+  line-height: 1.35;
+  margin: 0.45rem 0;
+}
+
+/* Optional: reduce sidebar spacing for bold labels in description */
+.wrapper > header b {
+  display: inline-block;
+  margin-top: 0.35rem;
+}
+
+/* --- Responsive: stack on smaller screens --- */
 @media screen and (max-width: 960px) {
-  header, section { width: auto; float: none; }
-  .wrapper { max-width: 92%; }
+  .wrapper {
+    display: block;
+    max-width: 92%;
+  }
+  .wrapper > header,
+  .wrapper > section {
+    width: 100%;
+  }
 }
