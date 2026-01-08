@@ -1,7 +1,7 @@
 ---
 layout: default
 title: From Health Business Administration to Digital Health Platform Strategy
-permalink: /msc-health/
+permalink: /msc-healthBA/
 ---
 
 <style>
@@ -72,7 +72,7 @@ permalink: /msc-health/
 </style>
 
 <div class="page-hero">
-  <h1>Applying Health Business Administration to Digital Health Platform Analysis</h1>
+  <h1>Applying MSc Health Business Administration to Digital Health Platform Analysis</h1>
 
 <div class="meta meta-subtitle">
   MSc Business Administration – Health · University of Groningen · GPA 8.1 / 10 (Distinction)
