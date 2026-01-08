@@ -1,13 +1,13 @@
-title: Enoch Cheung # your name (or website title) here
-#logo: "/images/dp2022.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
+title: Enoch Cheung
+#logo: "/images/dp2022.png?raw=true"
+
+description: >
   <sup>
   <b>Profile</b><br>
-  Pivoting from hands-on analytics roles into digital health platform business and research analysis.<br>
-  5+ years of experience translating web and campaign data into decision support through KPI reporting, dashboards, and measurement frameworks.
+  Pivoting from hands-on analytics roles into digital health platform business and research analysis. 5+ years of experience translating web and campaign data into decision support through KPI reporting, dashboards, and measurement frameworks.
   <br><br>
   <b>Domain</b><br>
-  Digital Health Platforms | Prevention & Primary Care (interest)
+  Digital Health Platforms | Prevention &amp; Primary Care (interest)
   <br><br>
   <b>Technical Skills</b><br>
   GA4, GTM, Google Ads, SEO, Search Console<br>
@@ -19,12 +19,11 @@ description: > # your text below (remove <br> elements if you don't need line br
   <b>Research Skills (MSc)</b><br>
   PRISMA-guided systematic literature review<br>
   Deductive thematic analysis (qualitative synthesis)<br>
-  Decision-analytic / cost-effectiveness modelling (scenario analysis, PSA, VOI)<br>
+  Decision-analytic and cost-effectiveness modelling (scenario analysis, PSA, VOI)<br>
   Health systems and health innovation coursework (Europe; cum laude)
   </sup>
   <br><br>
   <a href="https://www.linkedin.com/in/enoch-cheung-hk/">View My LinkedIn Profile</a>
- 
-  
+
 theme: jekyll-theme-minimal
-google_analytics: 347208407 # your Google Analytics tracking ID here
+google_analytics: 347208407
