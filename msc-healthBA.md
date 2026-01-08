@@ -1,6 +1,6 @@
 ---
 layout: default
-title: From Health Economics and Business Administration to Digital Health Platform Strategy
+title: From Health Business Administration to Digital Health Platform Strategy
 permalink: /msc-health/
 ---
 
@@ -8,7 +8,15 @@ permalink: /msc-health/
 /* --- Minimal, single-column card layout --- */
 .page-hero { margin: 1.2rem 0 1.8rem; }
 .page-hero h1 { margin-bottom: 0.25rem; }
-.page-hero .meta { opacity: 0.85; margin: 0.25rem 0 0.9rem; }
+.page-hero .meta-subtitle {
+  font-size: 0.9rem;
+  letter-spacing: 0.01em;
+  color: rgba(0,0,0,0.6);
+}
+.page-hero p:first-of-type {
+  padding-top: 0.8rem;
+  border-top: 1px solid rgba(0,0,0,0.12);
+}
 
 .badges {
   display: flex;
@@ -64,11 +72,11 @@ permalink: /msc-health/
 </style>
 
 <div class="page-hero">
-  <h1>Applying Health Economics to Digital Health Platform Analysis</h1>
+  <h1>Applying Health Business Administration to Digital Health Platform Analysis</h1>
 
-  <div class="meta">
-    MSc Business Administration – Health · University of Groningen · GPA 8.1 / 10 (Distinction)
-  </div>
+<div class="meta meta-subtitle">
+  MSc Business Administration – Health · University of Groningen · GPA 8.1 / 10 (Distinction)
+</div>
 
   <p>
     This programme strengthened my ability to apply health economics, systems thinking,
