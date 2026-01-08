@@ -79,9 +79,7 @@ permalink: /msc-healthBA/
 </div>
 
   <p>
-    This programme strengthened my ability to apply health economics, systems thinking,
-    and research methods to digital health platform analysis—supporting prioritisation,
-    adoption strategy, and evidence-informed business decisions.
+This programme strengthened my ability to apply health economics, systems thinking, and research methods to digital health platform analysis, supporting resource prioritisation, adoption strategy, and evidence-informed business decisions.
   </p>
 
   <p>
