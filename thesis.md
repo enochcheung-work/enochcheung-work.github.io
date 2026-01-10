@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Thesis — Evidence Synthesis for Digital Health Platform Decisions
+title: Thesis — Evidence Synthesis on Digital Health Implementation and Adoption Constraints
 permalink: /thesis/
 ---
 
@@ -97,10 +97,10 @@ details > div { margin-top: 10px; }
 </style>
 
 <div class="page-hero">
-  <h1>Evidence Synthesis for Digital Health Platform Decisions</h1>
+  <h1>Thesis — Evidence Synthesis on Digital Health Implementation and Adoption Constraints</h1>
 
   <div class="meta">
-    MSc Business Administration – Health · University of Groningen · 2025 · Systematic Review
+    MSc Business Administration – Health · University of Groningen · 2025 · Systematic Literature Review
   </div>
 
   <p class="lead">
