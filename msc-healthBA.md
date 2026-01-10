@@ -219,16 +219,14 @@ This programme strengthened my ability to apply health economics, systems thinki
   </div>
 
   <div class="card">
-    <h2>Master’s thesis (Evidence synthesis for platform decision-making)</h2>
+    <h2>Master’s thesis (Evidence synthesis on adoption and implementation constraints in digital health)</h2>
     <p>
-      <strong>Digital and social determinants of health in e-health implementation</strong><br/>
-      PRISMA-guided review examining how social and digital factors shape inequities
-      in digital health adoption in rural LMICs.
+      <strong>PRISMA-guided systematic review examining how social and digital factors shape adoption, implementation, and equity outcomes in digital health interventions across heterogeneous health system contexts.
     </p>
     <ul>
-      <li>Structured synthesis of multi-context empirical evidence</li>
-      <li>Identification of implementation constraints and enabling conditions</li>
-      <li>Strategic relevance for equitable platform scaling</li>
+      <li>Synthesis of multi-context empirical evidence on adoption and implementation constraints</li>
+      <li>Identification of institutional, social, and system-level enabling conditions</li>
+      <li>Evidence-based insights informing scalable and equitable digital health platform strategy</li>
     </ul>
     <p><a href="/thesis/">View thesis summary and methods →</a></p>
   </div>
