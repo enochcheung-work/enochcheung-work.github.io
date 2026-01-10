@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Strategy Comparison Under Uncertainty — Norovirus Model
-permalink: /norovirus-model/
+permalink: /norovirus-model-test/
 ---
 
 <style>
