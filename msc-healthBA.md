@@ -221,7 +221,7 @@ This programme strengthened my ability to apply health economics, systems thinki
   <div class="card">
     <h2>Master’s thesis (Evidence synthesis on adoption and implementation constraints in digital health)</h2>
     <p>
-      <strong>PRISMA-guided systematic review examining how social and digital factors shape adoption, implementation, and equity outcomes in digital health interventions across heterogeneous health system contexts.</strong>
+      <strong>PRISMA-guided systematic literature review examining how social and digital factors shape adoption, implementation, and equity outcomes in digital health interventions across heterogeneous health system contexts.</strong>
     </p>
     <ul>
       <li>Synthesis of multi-context empirical evidence on adoption and implementation constraints</li>
