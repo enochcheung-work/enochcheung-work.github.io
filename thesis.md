@@ -104,9 +104,7 @@ details > div { margin-top: 10px; }
   </div>
 
   <p class="lead">
-    This thesis synthesises empirical evidence on why digital health interventions succeed or fail
-    across different social and health system contexts, with a focus on adoption,
-    implementation, and equity-related constraints relevant to platform strategy.
+    This thesis synthesises empirical evidence on why digital health interventions succeed or fail across different social and health system contexts, with a focus on adoption, implementation, and equity-related constraints. The findings provide evidence to inform future digital health platform strategy.
   </p>
 
   <div class="badges">
