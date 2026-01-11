@@ -1,6 +1,6 @@
 ## Portfolio
 
-<p class="page-intro">
+<p class="page-intro"> 
 I translate health-domain evidence and quantitative analysis into decision support for digital health platforms —
 with a focus on adoption constraints, systems context, and prioritisation.
 </p>
@@ -8,36 +8,37 @@ with a focus on adoption constraints, systems context, and prioritisation.
 <div class="section-title">Featured: Academic work applied to platform analysis</div>
 
 <div class="cards">
-  <a class="card" href="/msc-health/">
+  <div class="card">
+    <a class="card-hit" href="/msc-health/" aria-label="MSc → Platform Strategy Lens"></a>
     <div class="card-title">MSc → Platform Strategy Lens</div>
     <div class="card-desc">
       How health economics, systems thinking, and research methods translate into platform and business analysis
       for healthcare decisions.
     </div>
     <div class="card-meta">University of Groningen · Distinction</div>
-  </a>
+  </div>
 
-  <a class="card" href="/thesis/">
-    <div class="card-title">Master’s Thesis → Evidence for Platform Decisions</div>
+  <div class="card">
+    <a class="card-hit" href="/thesis/" aria-label="Master’s Thesis → Evidence for Platform Decisions"></a>
+    <div class="card-title">Master’s Thesis → Qualitative Evidence for Platform Decisions</div>
     <div class="card-desc">
       Evidence synthesis on why digital health interventions succeed or fail across contexts —
       and what this implies for adoption, implementation, and scaling.
     </div>
-    <div class="card-meta">Systematic review · Decision-oriented framing</div>
-  </a>
+    <div class="card-meta">Systematic literature review · Decision-oriented framing</div>
+  </div>
 </div>
 
 <div class="section-title">Secondary: Quantitative decision-support and modelling</div>
 
-<div class="cards">
-  <a class="card card-secondary" href="/norovirus-model/">
-    <div class="card-title">Norovirus Modelling → Strategy Comparison</div>
-    <div class="card-desc">
-      Excel-based quantitative analysis with visual outputs to compare strategies and support prioritisation
-      decisions under uncertainty.
-    </div>
-    <div class="card-meta">Excel · Visualisation · VBA automation</div>
-  </a>
+<div class="card card-secondary">
+  <a class="card-hit" href="/norovirus-model/" aria-label="Norovirus Modelling → Strategy Comparison"></a>
+  <div class="card-title">Norovirus Modelling → Strategy Comparison</div>
+  <div class="card-desc">
+    Excel-based quantitative analysis with visual outputs to compare strategies and support prioritisation
+    decisions under uncertainty.
+  </div>
+  <div class="card-meta">Excel · Visualisation · VBA automation</div>
 </div>
 
 <div class="section-title">Projects: Data visualisation and performance analytics</div>
@@ -93,52 +94,45 @@ with a focus on adoption constraints, systems context, and prioritisation.
 }
 
 /* Cards */
-.cards{
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 14px;
-  margin: 0.7rem 0 1.1rem;
-}
-
 .card{
+  position: relative;
   display: block;
-  text-decoration: none !important;
   border: 1px solid rgba(0,0,0,0.14);
   border-radius: 12px;
   padding: 14px 14px 12px;
   background: rgba(255,255,255,0.80);
-  cursor: pointer;
 }
 
-.card:hover{
-  border-color: rgba(0,0,0,0.22);
+/* Invisible link that makes the whole card clickable */
+.card-hit{
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  text-decoration: none;
+  z-index: 1;
 }
 
-.card-title{
-  font-size: 1.05rem;
-  font-weight: 700;
-  margin: 0 0 0.35rem;
-  color: inherit;
-}
-
-.card-desc{
-  margin: 0 0 0.55rem;
-  opacity: 0.9;
-  cursor: default;
-  pointer-events: none;
-  
-}
-
+/* Ensure content sits above the overlay link */
+.card-title,
+.card-desc,
 .card-meta{
-  font-size: 0.88rem;
-  opacity: 0.75;
-  cursor: default;
-  pointer-events: none;
+  position: relative;
+  z-index: 2;
 }
 
-.card-secondary{
-  background: rgba(255,255,255,0.65);
+/* Cursor behavior: pointer on card, normal on text */
+.card{ cursor: pointer; }
+.card-title, .card-desc, .card-meta{ cursor: default; }
+
+/* Remove any default link styling */
+.card-hit:link,
+.card-hit:visited,
+.card-hit:hover,
+.card-hit:active{
+  color: inherit;
+  text-decoration: none;
 }
+
 
 /* Projects grid */
 .projects{
