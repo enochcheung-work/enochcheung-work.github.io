@@ -142,7 +142,7 @@ with a focus on adoption constraints, systems context, and prioritisation.
 .card-desc{
   margin: 0 0 0.55rem;
   opacity: 0.9;
-  color: inherit;
+  color: #727272;
   text-decoration: none;
   cursor: default; /* no pointer cursor on desc */
   font-weight: inherit;
@@ -152,7 +152,7 @@ with a focus on adoption constraints, systems context, and prioritisation.
 .card-meta{
   font-size: 0.88rem;
   opacity: 0.75;
-  color: inherit;
+  color: #727272;
   text-decoration: none;
   cursor: default; /* no pointer cursor on meta */
   font-weight: inherit;
