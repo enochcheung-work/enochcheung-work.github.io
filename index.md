@@ -142,7 +142,7 @@ with a focus on adoption constraints, systems context, and prioritisation.
 .card-desc{
   margin: 0 0 0.55rem;
   opacity: 0.9;
-  color: #727272;
+  color: rgba(0,0,0,0.85) !important; /* align with page intro tone */
   text-decoration: none;
   cursor: default; /* no pointer cursor on desc */
   font-weight: inherit;
@@ -152,24 +152,24 @@ with a focus on adoption constraints, systems context, and prioritisation.
 .card-meta{
   font-size: 0.88rem;
   opacity: 0.75;
-  color: #727272;
+  color: rgba(0,0,0,0.85) !important; /* align with page intro tone */
   text-decoration: none;
   cursor: default; /* no pointer cursor on meta */
   font-weight: inherit;
 }
 
-/* Neutralise any hover/visited styling that could affect desc/meta */
-.card:link .card-desc,
-.card:visited .card-desc,
-.card:hover .card-desc,
-.card:active .card-desc,
-.card:focus .card-desc,
-.card:link .card-meta,
-.card:visited .card-meta,
-.card:hover .card-meta,
-.card:active .card-meta,
-.card:focus .card-meta{
-  color: inherit !important;
+/* Override anchor states explicitly */
+a.card:link .card-desc,
+a.card:visited .card-desc,
+a.card:hover .card-desc,
+a.card:active .card-desc,
+a.card:focus .card-desc,
+a.card:link .card-meta,
+a.card:visited .card-meta,
+a.card:hover .card-meta,
+a.card:active .card-meta,
+a.card:focus .card-meta{
+  color: rgba(0,0,0,0.85) !important;
   text-decoration: none !important;
   font-weight: inherit !important;
   font-size: inherit !important;
