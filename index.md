@@ -107,6 +107,7 @@ with a focus on adoption constraints, systems context, and prioritisation.
   border-radius: 12px;
   padding: 14px 14px 12px;
   background: rgba(255,255,255,0.80);
+  cursor: pointer;
 }
 
 .card:hover{
@@ -123,18 +124,17 @@ with a focus on adoption constraints, systems context, and prioritisation.
 .card-desc{
   margin: 0 0 0.55rem;
   opacity: 0.9;
+  cursor: default;
+  pointer-events: none;
+  
 }
 
 .card-meta{
   font-size: 0.88rem;
   opacity: 0.75;
-}
-
-.card-desc,
-.card-meta {
+  cursor: default;
   pointer-events: none;
 }
-
 
 .card-secondary{
   background: rgba(255,255,255,0.65);
