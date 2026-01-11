@@ -13,7 +13,7 @@ with a focus on adoption constraints, systems context, and prioritisation.
 <div class="section-title">Featured: Academic work applied to platform analysis</div>
 
 <div class="cards">
-  <a class="card" href="/msc-health/">
+  <a class="card" href="/msc-healthBA/">
     <div class="card-title">MSc → Platform Strategy Lens</div>
     <div class="card-desc">
       How health economics, systems thinking, and research methods translate into platform and business analysis
