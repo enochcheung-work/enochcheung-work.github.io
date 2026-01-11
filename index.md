@@ -1,3 +1,8 @@
+---
+layout: default
+title: Portfolio
+---
+
 ## Portfolio
 
 <p class="page-intro"> 
@@ -8,37 +13,36 @@ with a focus on adoption constraints, systems context, and prioritisation.
 <div class="section-title">Featured: Academic work applied to platform analysis</div>
 
 <div class="cards">
-  <div class="card">
-    <a class="card-hit" href="/msc-health/" aria-label="MSc → Platform Strategy Lens"></a>
+  <a class="card" href="/msc-health/">
     <div class="card-title">MSc → Platform Strategy Lens</div>
     <div class="card-desc">
       How health economics, systems thinking, and research methods translate into platform and business analysis
       for healthcare decisions.
     </div>
     <div class="card-meta">University of Groningen · Distinction</div>
-  </div>
+  </a>
 
-  <div class="card">
-    <a class="card-hit" href="/thesis/" aria-label="Master’s Thesis → Evidence for Platform Decisions"></a>
+  <a class="card" href="/thesis/">
     <div class="card-title">Master’s Thesis → Qualitative Evidence for Platform Decisions</div>
     <div class="card-desc">
       Evidence synthesis on why digital health interventions succeed or fail across contexts —
       and what this implies for adoption, implementation, and scaling.
     </div>
     <div class="card-meta">Systematic literature review · Decision-oriented framing</div>
-  </div>
+  </a>
 </div>
 
 <div class="section-title">Secondary: Quantitative decision-support and modelling</div>
 
-<div class="card card-secondary">
-  <a class="card-hit" href="/norovirus-model/" aria-label="Norovirus Modelling → Strategy Comparison"></a>
-  <div class="card-title">Norovirus Modelling → Strategy Comparison</div>
-  <div class="card-desc">
-    Excel-based quantitative analysis with visual outputs to compare strategies and support prioritisation
-    decisions under uncertainty.
-  </div>
-  <div class="card-meta">Excel · Visualisation · VBA automation</div>
+<div class="cards">
+  <a class="card card-secondary" href="/norovirus-model/">
+    <div class="card-title">Norovirus Modelling → Strategy Comparison</div>
+    <div class="card-desc">
+      Excel-based quantitative analysis with visual outputs to compare strategies and support prioritisation
+      decisions under uncertainty.
+    </div>
+    <div class="card-meta">Excel · Visualisation · VBA automation</div>
+  </a>
 </div>
 
 <div class="section-title">Projects: Data visualisation and performance analytics</div>
@@ -93,46 +97,62 @@ with a focus on adoption constraints, systems context, and prioritisation.
   text-transform: none;
 }
 
+/* --- OPTION A: Remove hyperlink styling inside cards --- */
+a.card,
+a.card:link,
+a.card:visited,
+a.card:hover,
+a.card:active{
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+/* Ensure all text inside card inherits normal styling */
+a.card *{
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
 /* Cards */
+.cards{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  margin: 0.7rem 0 1.1rem;
+}
+
 .card{
-  position: relative;
   display: block;
   border: 1px solid rgba(0,0,0,0.14);
   border-radius: 12px;
   padding: 14px 14px 12px;
   background: rgba(255,255,255,0.80);
+  cursor: pointer;
 }
 
-/* Invisible link that makes the whole card clickable */
-.card-hit{
-  position: absolute;
-  inset: 0;
-  border-radius: 12px;
-  text-decoration: none;
-  z-index: 1;
+.card:hover{
+  border-color: rgba(0,0,0,0.22);
 }
 
-/* Ensure content sits above the overlay link */
-.card-title,
-.card-desc,
+.card-title{
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 0.35rem;
+}
+
+.card-desc{
+  margin: 0 0 0.55rem;
+  opacity: 0.9;
+}
+
 .card-meta{
-  position: relative;
-  z-index: 2;
+  font-size: 0.88rem;
+  opacity: 0.75;
 }
 
-/* Cursor behavior: pointer on card, normal on text */
-.card{ cursor: pointer; }
-.card-title, .card-desc, .card-meta{ cursor: default; }
-
-/* Remove any default link styling */
-.card-hit:link,
-.card-hit:visited,
-.card-hit:hover,
-.card-hit:active{
-  color: inherit;
-  text-decoration: none;
+.card-secondary{
+  background: rgba(255,255,255,0.65);
 }
-
 
 /* Projects grid */
 .projects{
@@ -159,6 +179,8 @@ with a focus on adoption constraints, systems context, and prioritisation.
   margin: 0 0 0.6rem;
   font-weight: 700;
   opacity: 0.92;
+  color: inherit;
+  text-decoration: none;
 }
 
 .project img{
@@ -187,9 +209,6 @@ with a focus on adoption constraints, systems context, and prioritisation.
 @media (min-width: 920px){
   .cards{
     grid-template-columns: 1fr 1fr;
-  }
-  .cards .card-secondary{
-    grid-column: span 1;
   }
   .projects{
     grid-template-columns: 1fr 1fr;
