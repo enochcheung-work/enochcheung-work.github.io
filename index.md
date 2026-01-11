@@ -130,6 +130,12 @@ with a focus on adoption constraints, systems context, and prioritisation.
   opacity: 0.75;
 }
 
+.card-desc,
+.card-meta {
+  pointer-events: none;
+}
+
+
 .card-secondary{
   background: rgba(255,255,255,0.65);
 }
