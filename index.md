@@ -97,22 +97,6 @@ with a focus on adoption constraints, systems context, and prioritisation.
   text-transform: none;
 }
 
-/* --- OPTION A: Remove hyperlink styling inside cards --- */
-a.card,
-a.card:link,
-a.card:visited,
-a.card:hover,
-a.card:active{
-  color: inherit !important;
-  text-decoration: none !important;
-}
-
-/* Ensure all text inside card inherits normal styling */
-a.card *{
-  color: inherit !important;
-  text-decoration: none !important;
-}
-
 /* Cards */
 .cards{
   display: grid;
@@ -123,6 +107,7 @@ a.card *{
 
 .card{
   display: block;
+  text-decoration: none !important; /* prevent underline on whole card */
   border: 1px solid rgba(0,0,0,0.14);
   border-radius: 12px;
   padding: 14px 14px 12px;
@@ -130,24 +115,64 @@ a.card *{
   cursor: pointer;
 }
 
-.card:hover{
+/* Keep card from changing typography on hover (some themes/browsers do this) */
+.card:hover,
+.card:focus{
   border-color: rgba(0,0,0,0.22);
+  text-decoration: none !important;
 }
 
+/* Make ONLY the title look like a hyperlink (blue) */
 .card-title{
   font-size: 1.05rem;
   font-weight: 700;
   margin: 0 0 0.35rem;
+  color: #0969da;              /* GitHub-like link blue */
+  text-decoration: underline;  /* hyperlink look */
 }
 
+/* On hover, keep title hyperlink feel consistent */
+.card:hover .card-title,
+.card:focus .card-title{
+  color: #0969da;
+  text-decoration: underline;
+}
+
+/* Desc + meta should be clickable (since inside <a>), but not "link-like" */
 .card-desc{
   margin: 0 0 0.55rem;
   opacity: 0.9;
+  color: inherit;
+  text-decoration: none;
+  cursor: default; /* no pointer cursor on desc */
+  font-weight: inherit;
+  font-size: inherit;
 }
 
 .card-meta{
   font-size: 0.88rem;
   opacity: 0.75;
+  color: inherit;
+  text-decoration: none;
+  cursor: default; /* no pointer cursor on meta */
+  font-weight: inherit;
+}
+
+/* Neutralise any hover/visited styling that could affect desc/meta */
+.card:link .card-desc,
+.card:visited .card-desc,
+.card:hover .card-desc,
+.card:active .card-desc,
+.card:focus .card-desc,
+.card:link .card-meta,
+.card:visited .card-meta,
+.card:hover .card-meta,
+.card:active .card-meta,
+.card:focus .card-meta{
+  color: inherit !important;
+  text-decoration: none !important;
+  font-weight: inherit !important;
+  font-size: inherit !important;
 }
 
 .card-secondary{
@@ -169,6 +194,7 @@ a.card *{
   border-radius: 12px;
   padding: 12px;
   background: rgba(255,255,255,0.75);
+  cursor: pointer;
 }
 
 .project:hover{
@@ -179,8 +205,8 @@ a.card *{
   margin: 0 0 0.6rem;
   font-weight: 700;
   opacity: 0.92;
-  color: inherit;
-  text-decoration: none;
+  color: #0969da;
+  text-decoration: underline;
 }
 
 .project img{
