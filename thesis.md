@@ -1,31 +1,34 @@
 ---
 layout: default
-title: Thesis — Evidence Synthesis on Digital Health Implementation and Adoption Constraints
+title: Thesis — Evidence on Digital Health Adoption and Health System Context
 permalink: /thesis/
 ---
 
 <style>
 /* Align with MSc page (single-column, minimal theme-friendly) */
 .page-hero { margin: 1.2rem 0 1.8rem; }
-.page-hero h1 { margin-bottom: 0.4rem; }
+.page-hero h1 { margin-bottom: 0.35rem; }
 .page-hero .meta {
-  margin: 0.8rem 0 1.1rem;
+  margin: 0.75rem 0 1.05rem;
   font-size: 0.95rem;
   line-height: 1.45;
-  color: rgba(0,0,0,0.85);
+  color: rgba(0,0,0,0.82);
 }
-.page-hero p { margin: 0.45rem 0 0.7rem; }
-.page-hero .lead {
-  padding-top: 0.8rem;
-  border-top: 1px solid rgba(0,0,0,0.12);
-}
+.page-hero .lead { margin: 0.55rem 0 0.8rem; max-width: 78ch; }
+.page-hero .actions { display:flex; flex-wrap:wrap; gap:10px; margin: 0.85rem 0 0.2rem; }
 
-.badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem;
-  margin: 0.7rem 0 0.3rem;
+.btn {
+  display:inline-block;
+  border: 1px solid rgba(0,0,0,0.16);
+  border-radius: 999px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.9rem;
+  text-decoration: none !important;
+  background: rgba(255,255,255,0.85);
 }
+.btn:hover { border-color: rgba(0,0,0,0.26); }
+
+.badges { display:flex; flex-wrap:wrap; gap:0.45rem; margin:0.7rem 0 0.2rem; }
 .badge {
   border: 1px solid rgba(0,0,0,0.15);
   border-radius: 999px;
@@ -34,225 +37,199 @@ permalink: /thesis/
   opacity: 0.9;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 16px;
-  margin: 18px 0 22px;
-}
-
-.grid h3 {
-  margin: 1.6rem 0 0.6rem;
-  font-size: 1rem;
-  font-weight: 600;
-  opacity: 0.8;
-}
+.grid { display:grid; grid-template-columns: 1fr; gap: 16px; margin: 18px 0 22px; }
+.grid h3 { margin: 1.6rem 0 0.6rem; font-size: 1rem; font-weight: 700; opacity: 0.85; }
 
 .card {
   border: 1px solid rgba(0,0,0,0.15);
   border-radius: 12px;
   padding: 16px 16px 14px;
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.82);
 }
-
-.card h2 {
-  margin: 0 0 0.45rem;
-  font-size: 1.15rem;
-}
-
-.card p {
-  margin: 0.4rem 0 0.6rem;
-}
-
-.card ul {
-  margin: 0.35rem 0 0.2rem 1.1rem;
-}
-
-.card li {
-  margin: 0.25rem 0;
-}
+.card h2 { margin: 0 0 0.5rem; font-size: 1.1rem; }
+.card p { margin: 0.4rem 0 0.6rem; max-width: 78ch; }
+.card ul { margin: 0.35rem 0 0.2rem 1.1rem; }
+.card li { margin: 0.25rem 0; }
 
 .callout {
   border-left: 4px solid rgba(0,0,0,0.18);
   padding: 0.2rem 0 0.2rem 0.9rem;
   margin: 0.6rem 0 0.2rem;
+  opacity: 0.95;
 }
 
-.note {
-  font-size: 0.95rem;
-  opacity: 0.9;
-}
+.note { font-size: 0.95rem; opacity: 0.9; max-width: 78ch; }
 
 details {
   border: 1px solid rgba(0,0,0,0.12);
   border-radius: 10px;
   padding: 10px 12px;
-  background: rgba(255,255,255,0.65);
+  background: rgba(255,255,255,0.68);
 }
-summary {
-  cursor: pointer;
-  font-weight: 600;
-}
+summary { cursor: pointer; font-weight: 700; opacity: 0.9; }
 details > div { margin-top: 10px; }
 </style>
 
 <div class="page-hero">
-  <h1>Thesis — Evidence Synthesis on Digital Health Implementation and Adoption Constraints</h1>
+  <h1>Master’s Thesis — Evidence on Digital Health Adoption and Health System Context</h1>
 
   <div class="meta">
-    MSc Business Administration – Health · University of Groningen · 2025 · Systematic Literature Review
+    <strong>MSc Business Administration – Health · University of Groningen</strong> · Systematic Review (PRISMA) · Deductive Thematic Analysis
   </div>
 
   <p class="lead">
-    This thesis synthesises empirical evidence on why digital health interventions succeed or fail across different social and health system contexts, with a focus on adoption, implementation, and equity-related constraints. The findings provide evidence to inform future digital health platform strategy.
+    This thesis synthesises empirical evidence on why digital health interventions succeed or fail across different social and health system contexts. It focuses on adoption, implementation, and inequity-related constraints. The findings offer decision-relevant insights for organisations operating in the health and healthcare sector.
   </p>
 
+  <div class="actions">
+    <a class="btn" href="/assets/docs/thesis.pdf" target="_blank" rel="noopener">View thesis PDF →</a>
+    <a class="btn" href="/thesis-brief/">Read recruiter summary →</a>
+  </div>
+
   <div class="badges">
+    <span class="badge">Adoption constraints</span>
+    <span class="badge">Health system context</span>
+    <span class="badge">Social determinants</span>
+    <span class="badge">Digital determinants</span>
     <span class="badge">Evidence synthesis</span>
-    <span class="badge">Digital health adoption</span>
-    <span class="badge">Health systems</span>
-    <span class="badge">Platform strategy</span>
   </div>
 
   <p class="note">
-    <strong>Positioning:</strong> Decision-relevant evidence synthesis to support platform prioritisation,
-    adoption strategy, and scalable implementation.
+    <strong>Positioning:</strong> Evidence synthesis for understanding feasibility, adoption conditions, and implementation risks in complex health environments (not a direct strategy proposal).
   </p>
 </div>
 
 <div class="grid">
 
-  <!-- Executive takeaway -->
   <h3 id="executive">Executive takeaway</h3>
-
   <div class="card">
     <h2>What this thesis is really about</h2>
     <p>
-      Digital health adoption is not driven by technology alone.
-      Across empirical studies, implementation outcomes are shaped by a wider health ecosystem,
-      where social, institutional, and system-level factors interact with digital capabilities.
-      While individual-level factors such as literacy and affordability are important,
-      societal-level determinants such as norms, governance, and policy environments
-      are frequently underexamined despite their influence on outcomes.
+      Digital health outcomes are not determined by technology alone. Across empirical studies, implementation success is shaped by how digital tools interact with social conditions, institutional arrangements, and health system structures.
+      While individual-level factors such as literacy and affordability matter, broader societal and system-level determinants (e.g. norms, governance, policy environment) are often under-examined despite their influence on outcomes.
     </p>
-
     <div class="callout">
-      <p>
-        <strong>So what?</strong>
-        Scaling digital health platforms requires strategy beyond user-level optimisation,
-        incorporating institutional constraints, system incentives, and context-specific
-        adoption conditions.
-      </p>
+      <p><strong>So what?</strong> Digital health initiatives can underperform when decisions focus only on user-level or technical factors and overlook institutional and contextual constraints embedded in health systems.</p>
     </div>
   </div>
 
-  <div class="card">
-    <h2>Representative implementation pattern</h2>
-    <p>
-      Across the evidence base, many digital health interventions achieved initial uptake
-      but failed to sustain usage over time. This was not due to technical shortcomings,
-      but because solutions were introduced without sufficient alignment to existing care
-      workflows, incentive structures, or regulatory contexts.
-    </p>
-    <p>
-      As a result, digital tools remained peripheral rather than embedded within routine
-      service delivery, limiting adoption, network effects, and long-term value creation.
-    </p>
-  </div>
-
-  <!-- Research focus -->
   <h3 id="focus">Research focus and scope</h3>
-
   <div class="card">
     <h2>Research focus</h2>
     <ul>
-      <li><strong>Core question:</strong> How does digital health implementation interact with health inequities across populations?</li>
-      <li><strong>Context:</strong> Heterogeneous health systems with structurally constrained populations</li>
-      <li><strong>Interventions:</strong> Mobile health, telemedicine, and platform-based digital health initiatives</li>
+      <li><strong>Core question:</strong> How do social and digital determinants of health influence implementation and equity outcomes of digital health interventions?</li>
+      <li><strong>Context:</strong> Rural LMIC settings; heterogeneous sub-populations within constrained health systems</li>
+      <li><strong>Interventions:</strong> mHealth, telemedicine, and platform-based digital health interventions</li>
       <li><strong>Evidence base:</strong> Empirical studies reporting adoption, implementation, or equity-related outcomes</li>
     </ul>
     <p class="note">
-      Out of scope: clinical efficacy, algorithm performance, and financial cost-effectiveness modelling.
+      <strong>Out of scope:</strong> Clinical efficacy, algorithmic performance, and cost-effectiveness modelling.
     </p>
   </div>
 
-  <!-- Key insights -->
-  <h3 id="insights">Key insights for decision-making</h3>
+  <h3 id="insights">Key insights from the evidence</h3>
 
   <div class="card">
-    <h2>Social determinants shape platform network effects</h2>
+    <h2>Insight 1: Adoption depends on more than digital capability</h2>
     <p>
-      Individual digital literacy influences adoption, but uptake is also constrained
-      by health literacy, economic status, and interpersonal dynamics such as
-      patient–clinician relationships.
+      Evidence indicates that digital literacy influences uptake, but adoption is also constrained by health literacy, economic conditions, and interpersonal dynamics such as patient–clinician relationships.
     </p>
     <ul>
-      <li><strong>Implication:</strong> Platform strategy must account for intermediated adoption and trust dynamics</li>
-      <li><strong>Risk if ignored:</strong> Fragmented uptake and weak network effects</li>
+      <li><strong>Implication:</strong> Usability improvements alone may not be sufficient if trust, awareness, and intermediary relationships are weak.</li>
+      <li><strong>Risk if ignored:</strong> Fragmented uptake and uneven outcomes across sub-populations.</li>
     </ul>
   </div>
 
   <div class="card">
-    <h2>Socioeconomic variation affects adoption capacity</h2>
+    <h2>Insight 2: Socioeconomic conditions shape both willingness and capacity to adopt</h2>
     <p>
-      Differences in socioeconomic conditions affect both the ability and readiness
-      to engage with digital health solutions across population segments.
+      Socioeconomic variation affects readiness and sustained use, not only initial interest in digital health.
     </p>
     <ul>
-      <li><strong>Implication:</strong> Adoption strategies should be differentiated by context rather than uniform</li>
-      <li><strong>Risk if ignored:</strong> Reduced cost-efficiency and limited reach</li>
+      <li><strong>Implication:</strong> Uniform rollout assumptions can miss meaningful differences in constraints across groups.</li>
+      <li><strong>Risk if ignored:</strong> Inefficient resource allocation and limited impact despite strong execution.</li>
     </ul>
   </div>
 
   <div class="card">
-    <h2>Determinants of adoption are dynamic</h2>
+    <h2>Insight 3: Determinants of adoption are dynamic</h2>
     <p>
-      Digital and health capabilities evolve over time as training, service availability,
-      and disease-specific resources change.
+      Studies suggest that capabilities and constraints evolve with changes in training, awareness, service availability, and disease-specific resources.
     </p>
     <ul>
-      <li><strong>Implication:</strong> Strategy should support iterative adjustment rather than fixed rollout</li>
-      <li><strong>Risk if ignored:</strong> Missed upside and slower competitive response</li>
+      <li><strong>Implication:</strong> Implementation benefits from ongoing monitoring rather than one-time assumptions about user readiness.</li>
+      <li><strong>Risk if ignored:</strong> Delayed response to changing conditions and missed opportunities for improvement.</li>
     </ul>
   </div>
 
   <div class="card">
-    <h2>Local context is a binding constraint on scalability</h2>
+    <h2>Insight 4: Local health system context is a binding constraint</h2>
     <p>
-      Adoption outcomes vary substantially across geographies due to differences
-      in health infrastructure, policy, and institutional arrangements.
+      Outcomes vary across settings due to differences in infrastructure, governance, financing, and social conditions.
     </p>
     <ul>
-      <li><strong>Implication:</strong> Localisation must extend beyond digital adaptation</li>
-      <li><strong>Risk if ignored:</strong> Strategic misfit and stalled scaling</li>
+      <li><strong>Implication:</strong> Interventions require adaptation to local health systems and institutional arrangements.</li>
+      <li><strong>Risk if ignored:</strong> Failure to scale or sustain due to institutional misalignment.</li>
     </ul>
   </div>
 
-  <!-- Strategy implications -->
-  <h3 id="implications">Implications for platform strategy and implementation</h3>
-
+  <h3 id="implications">Implications for health-related business and organisational decisions</h3>
   <div class="card">
-    <h2>How this informs decisions</h2>
+    <h2>Decision-relevant considerations</h2>
+    <p>
+      The synthesis highlights that implementation outcomes depend on system context, intermediaries, and institutional conditions, not just product or service design.
+    </p>
     <ul>
-      <li><strong>Prioritisation:</strong> Focus on determinants shaping primary and community care contexts</li>
-      <li><strong>Adoption and trust:</strong> Align product design with users’ digital and health literacy levels</li>
-      <li><strong>Operating model:</strong> Segment by health system structure and care pathways</li>
-      <li><strong>Equity and access:</strong> Treat inequities as structural constraints on network effects</li>
-      <li><strong>Measurement:</strong> Complement KPIs with indicators capturing institutional and social bottlenecks</li>
+      <li><strong>Prioritisation:</strong> Focus on determinants that constrain feasibility and uptake, not only demand signals</li>
+      <li><strong>Adoption and trust:</strong> Account for health literacy, norms, and intermediary roles</li>
+      <li><strong>Operating context:</strong> Align initiatives with care pathways and institutional structures</li>
+      <li><strong>Equity and access:</strong> Treat inequities as structural constraints that affect performance</li>
+      <li><strong>Measurement:</strong> Complement quantitative KPIs with contextual and qualitative indicators</li>
     </ul>
   </div>
 
-  <!-- Capability -->
   <h3 id="capability">What this demonstrates about my capabilities</h3>
-
   <div class="card">
     <h2>Transferable capabilities</h2>
+    <p>
+      Ability to synthesise complex, multi-context evidence and translate it into structured insights relevant for decision-making in health and healthcare environments.
+    </p>
     <ul>
-      <li><strong>Evidence synthesis:</strong> Integrating heterogeneous empirical findings into coherent insights</li>
-      <li><strong>Analytical framing:</strong> Structuring ambiguous, multi-level problems for decision-making</li>
-      <li><strong>Systems thinking:</strong> Linking individual, organisational, and policy-level dynamics</li>
-      <li><strong>Decision communication:</strong> Translating rigorous analysis into strategy-relevant narratives</li>
+      <li><strong>Evidence synthesis:</strong> Integrating heterogeneous studies into decision-relevant patterns</li>
+      <li><strong>Analytical framing:</strong> Structuring ambiguous, multi-level problems into coherent narratives</li>
+      <li><strong>Systems thinking:</strong> Connecting individual, interpersonal, community, and institutional factors</li>
+      <li><strong>Decision communication:</strong> Writing for non-academic readers while retaining methodological clarity</li>
     </ul>
+  </div>
+
+  <h3 id="methods">Methods and details (optional)</h3>
+  <details>
+    <summary>View methods and technical details</summary>
+    <div>
+      <div class="card" style="border:none; padding: 8px 0 2px; background: transparent;">
+        <h2 style="font-size:1.05rem; margin-top: 0;">Methods overview</h2>
+        <ul>
+          <li><strong>Protocol:</strong> PRISMA-guided systematic review</li>
+          <li><strong>Approach:</strong> Deductive thematic analysis using a structured framework</li>
+        </ul>
+        <p class="note">
+          <a href="/assets/docs/thesis.pdf" target="_blank" rel="noopener">Open thesis PDF →</a>
+        </p>
+      </div>
+    </div>
+  </details>
+
+  <h3 id="links">Links</h3>
+  <div class="card">
+    <h2>Related pages</h2>
+    <ul>
+      <li><a href="/msc-health/">MSc overview →</a></li>
+      <li><a href="/thesis-brief/">Recruiter summary →</a></li>
+      <li><a href="/assets/docs/thesis.pdf" target="_blank" rel="noopener">Thesis PDF →</a></li>
+    </ul>
+    <p class="note">
+      If you’re reviewing for a role in analytics, research, or health-related business, the recruiter summary is the fastest read. The full page adds detail and context.
+    </p>
   </div>
 
 </div>
