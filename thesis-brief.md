@@ -127,6 +127,6 @@ permalink: /thesis-brief/
   <ul>
     <li><a href="/assets/docs/thesis.pdf" target="_blank" rel="noopener">Thesis PDF →</a></li>
     <li><a href="/thesis/">Full thesis page →</a></li>
-    <li><a href="/msc-health/">MSc overview →</a></li>
+    <li><a href="/msc-healthBA/">MSc overview →</a></li>
   </ul>
 </div>
