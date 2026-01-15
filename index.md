@@ -6,29 +6,28 @@ title: Portfolio
 ## Portfolio
 
 <p class="page-intro"> 
-I translate health-domain evidence and quantitative analysis into decision support for digital health platforms —
-with a focus on adoption constraints, systems context, and prioritisation.
+I combine digital marketing analytics with health-sector context and evidence synthesis — translating performance data and determinants-of-health perspectives into clearer decision-making for health and healthcare organisations.
 </p>
 
-<div class="section-title">Featured: Academic work applied to platform analysis</div>
+<div class="section-title">Featured: Health-sector domain knowledge & evidence</div>
 
 <div class="cards">
   <a class="card" href="/msc-healthBA/">
-    <div class="card-title">MSc → Platform Strategy Lens</div>
+    <div class="card-title">MSc — Health systems & health business context</div>
     <div class="card-desc">
-      How health economics, systems thinking, and research methods translate into platform and business analysis
-      for healthcare decisions.
+      Broad coverage across health systems, operations, policy, and applied health economics — supporting
+      stronger domain understanding for business decisions in the health sector.
     </div>
     <div class="card-meta">University of Groningen · Distinction</div>
   </a>
 
   <a class="card" href="/thesis/">
-    <div class="card-title">Master’s Thesis → Qualitative Evidence for Platform Decisions</div>
+    <div class="card-title">Master’s Thesis — Determinants shaping digital health uptake</div>
     <div class="card-desc">
-      Evidence synthesis on why digital health interventions succeed or fail across contexts —
-      and what this implies for adoption, implementation, and scaling.
+      Qualitative evidence synthesis on how social and digital determinants influence adoption and implementation
+      outcomes, and what this implies for real-world deployment in health contexts.
     </div>
-    <div class="card-meta">Systematic literature review · Decision-oriented framing</div>
+    <div class="card-meta">Systematic literature review · Deductive thematic analysis</div>
   </a>
 </div>
 
@@ -36,7 +35,7 @@ with a focus on adoption constraints, systems context, and prioritisation.
 
 <div class="cards">
   <a class="card card-secondary" href="/norovirus-model/">
-    <div class="card-title">Norovirus Modelling → Strategy Comparison</div>
+    <div class="card-title">Excel Modelling — Strategy comparison and visuals</div>
     <div class="card-desc">
       Excel-based quantitative analysis with visual outputs to compare strategies and support prioritisation
       decisions under uncertainty.
@@ -45,7 +44,7 @@ with a focus on adoption constraints, systems context, and prioritisation.
   </a>
 </div>
 
-<div class="section-title">Projects: Data visualisation and performance analytics</div>
+<div class="section-title">Previous work: Data visualisation and performance analytics</div>
 
 <div class="projects">
   <a class="project" href="/data-studio-dashboard">
